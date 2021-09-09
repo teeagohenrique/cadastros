@@ -1,0 +1,101 @@
+/*
+ * Component: Info Box
+ * -------------------
+ */
+.info-box {
+  display: block;
+  min-height: 68px;
+  background: #fff;
+  width: 100%;
+  margin-bottom:5px;
+}
+/*
+margin-bottom: 15px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+
+*/
+.info-box small {
+  font-size: 14px;
+}
+.info-box .progress {
+  background: rgba(0, 0, 0, 0.2);
+  margin: 5px -10px 5px -10px;
+  height: 2px;
+}
+.info-box .progress,
+.info-box .progress .progress-bar {
+  border-radius: 0;
+}
+.info-box .progress .progress-bar {
+  background: #fff;
+}
+.info-box-icon {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0px;
+  display: block;
+  float: left;
+  height: 68px;
+  width: 70px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 90px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.info-box-icon > img {
+  max-width: 100%;
+}
+.info-box-content {
+  border:1px solid #CCCCCC;
+  height:68px;
+}
+/*
+padding: 5px 10px;
+  margin-left: 90px;
+  */
+
+
+.info-box-number {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+.progress-description,
+.info-box-text {
+	margin-top:17px;
+  display: block;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left:15px;
+}
+.info-box-text {
+  
+  display: block;
+  font-weight: bold;
+  margin-top:22px;
+}
+.info-box-more {
+  display: block;
+}
+.progress-description {
+  margin: 0;
+}
+
+.bg-blue1
+{
+	background:
+}
+a 
+{
+	color:#666666;	
+}
+a:hover 
+{
+	color:#000000;	
+	text-decoration:none;
+	
+}
